@@ -3,12 +3,19 @@ import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import Contact from '../Contact/Contact';
 import './ProgramDetails.css';
+import img1 from "../../assets/sample-1.png";
+import img2 from "../../assets/sample-5.png";
+import img3 from "../../assets/sample-11.png";
+import img4 from "../../assets/sample-12.png";
+import img5 from "../../assets/sample-14.png";
+import img6 from "../../assets/sample-15.png";
+import img7 from "../../assets/sample-16.png";
 
 const programsData = [
   {
     id: 1,
     title: 'Waste Water Treatment Plant',
-    image: './sample-11.png', // Update with actual path
+    image: img1, // Update with actual path
     price: '₹ 1,50,000/ piece',
     usage: 'Waste Water Treatment',
     waterSource: 'Industrial Effluent',
@@ -21,7 +28,7 @@ const programsData = [
   {
     id: 2,
     title: 'Seawage Water Treatment Plant',
-    image: './sample-12.png', // Update with actual path
+    image: img2, // Update with actual path
     price: '₹ 1,50,000/ piece',
     usage: 'Seawage Water Treatment',
     waterSource: 'Urban Sewage',
@@ -34,7 +41,7 @@ const programsData = [
   {
     id: 3,
     title: 'Effluent Treatment Plant',
-    image: './sample-1.png', // Update with actual path
+    image: img7, // Update with actual path
     price: '₹ 1,49,999/ piece',
     usage: 'Effluent Treatment',
     waterSource: 'Industrial Waste',
@@ -47,7 +54,7 @@ const programsData = [
   {
     id: 4,
     title: 'Water Softener Plant',
-    image: './sample-5.png', // Update with actual path
+    image: img3, // Update with actual path
     price: '₹ 50,000/ Unit',
     usage: 'Industrial Water Softening',
     waterSource: 'Borewell Water',
@@ -60,7 +67,7 @@ const programsData = [
   {
     id: 5,
     title: 'Commercial RO Plant',
-    image: './sample-14.png', // Update with actual path
+    image: img4, // Update with actual path
     price: '₹ 55,000/ Unit',
     usage: 'Water Purification',
     waterSource: 'Customized',
@@ -73,7 +80,7 @@ const programsData = [
   {
     id: 6,
     title: 'RO Plant Installation Service',
-    image: './sample-15.png', // Update with actual path
+    image: img5, // Update with actual path
     price: '₹ 30,000',
     usage: 'RO Purification Installation',
     serviceLocation: 'Delhi NCR',
@@ -85,7 +92,7 @@ const programsData = [
   {
     id: 7,
     title: 'Water Softener Plant Installation Service',
-    image: './sample-16.png', // Update with actual path
+    image: img6, // Update with actual path
     price: '₹ 25,000',
     usage: 'Water Softener Installation',
     serviceLocation: 'Delhi NCR',
