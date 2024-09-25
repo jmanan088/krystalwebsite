@@ -1,0 +1,77 @@
+/* Ensure the navbar is always visible with a fixed background color */
+nav {
+  background-color: #212EA0; /* Fixed navbar color */
+}
+
+/* Container styling for program details */
+.program-details-container {
+  margin: 80px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+/* Individual program detail styling */
+.program-detail {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Uniform image styling */
+.program-detail-image {
+  margin-top: 25px;
+  margin-left: 25px;
+  width: 50%;
+  height: 300px;
+  object-fit: cover;
+  border-right: 1px solid #ddd;
+}
+
+/* Content area styling */
+.program-detail-content {
+  padding: 20px;
+  width: 50%;
+}
+
+.program-detail-content h1 {
+  color: #000F38;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.program-detail-content p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.program-detail-content p strong {
+  color: #000F38;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .program-detail {
+    flex-direction: column;
+  }
+
+  .program-detail-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .program-detail-content {
+    width: 100%;
+  }
+}
+
+/* Contact and footer padding for a clean look */
+footer {
+  margin: 10px auto;
+  padding: 40px 200px;
+}
